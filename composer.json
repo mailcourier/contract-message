@@ -1,0 +1,42 @@
+{
+  "name": "postboy/contract-message",
+  "type": "library",
+  "description": "Interfaces of postboy message",
+  "keywords": ["postboy", "mailer", "email"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Dudarev",
+      "email": "ivan@ddrv.ru",
+      "homepage": "https://ddrv.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "postboy/email": "^1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Postboy\\Contract\\Message\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Postboy\\Contract\\Message\\": "tests/"
+    }
+  },
+  "funding": [
+    {
+      "type": "other",
+      "url": "https://www.paypal.me/ddrv"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/ddrv"
+    }
+  ]
+}
